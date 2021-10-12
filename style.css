@@ -1,22 +1,22 @@
 #board {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    width: 1000px;
-    background-color: rgb(255, 255, 182);
-    border-radius: 10px;
-    padding: 40px;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    float: center;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  width: 1000px;
+  background-color: rgb(255, 255, 182);
+  border-radius: 10px;
+  padding: 40px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  float: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-#won{
+#won {
   vertical-align: middle;
   text-align: center;
   position: fixed;
@@ -33,11 +33,11 @@
   font-size: xx-large;
   color: black;
   visibility: hidden;
-  box-shadow: 5px 5px #888888
+  box-shadow: 5px 5px #888888;
 }
 
-#playButton{
-  background-color:red;
+#playButton {
+  background-color: red;
   border: none;
   border-radius: 10px;
   color: white;
@@ -57,15 +57,31 @@
 }
 
 .tile {
-    width: 1px;
-    height: 1px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: gray;
-    border-width: 2px;
-    /* background-image: url("images/Puffin.png"); */
-    background-size: 100px;
-    background-color: white;
-    border-width: 2px;
-    box-shadow: 2px 2px #888888
+  width: 1px;
+  height: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: gray;
+  border-width: 2px;
+  /* background-image: url("images/Puffin.png"); */
+  background-size: 100px;
+  background-color: white;
+  border-width: 2px;
+  box-shadow: 2px 2px #888888;
+}
+
+#madeBy {
+  position: fixed;
+  left: 50%;
+  bottom: 0px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+#title {
+  position: fixed;
+  left: 50%;
+  top: 50px;
+  font-size: xx-large;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
 }

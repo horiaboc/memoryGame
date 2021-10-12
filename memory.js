@@ -5,7 +5,7 @@ $(document).ready(function () {
   const gTileSize = 100
   const gGap = 20
   const gRows = 6
-  const gColumns = 10
+  const gColumns = 6
   const gSourceImages = ["Ant", "Chicken", "Fish", "Leopard", "Sheep",
     "Aquarium", "ClownFish", "Fly", "Lion", "Snail", "Badger", "Corgi",
     "Frog", "Llama", "Spider", "BatFace", "Cow", "Giraffe", "Mite",
@@ -56,6 +56,7 @@ $(document).ready(function () {
       gPlayImages.push(gSourceImages[imgIndex])
       gPlayImages.push(gSourceImages[imgIndex])
       tempImages.splice(imgIndex, 1)
+      console.log(gPlayImages, tempImages)
     }
   }
 
